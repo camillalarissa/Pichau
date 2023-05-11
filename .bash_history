@@ -1,0 +1,2 @@
+ola
+git init
