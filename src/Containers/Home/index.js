@@ -15,7 +15,7 @@ import {
     Image,
     InputLabel,
     Input,
-    
+
 } from "../../Containers/Home/styles";
 
 //jsx tras poderes na nossa aplicaçao utilizando entre {}
@@ -35,7 +35,7 @@ function App() {
     }
 
     // React criou o ESTADO que é uma variavel, eu alterando esta ele renderiza a tela novamente 
-// PROPS => PROPRIEDADES
+    // PROPS => PROPRIEDADES
     return (
         <Container>
             <Image alt="logo-imagem" src={People} />
@@ -46,7 +46,7 @@ function App() {
                 <InputLabel>Idade</InputLabel>
                 <Input ref={inputAge} placeholder="Idade" />
                 <Button onClick={addNewUser}>Cadastrar <img alt="seta" src={Arrow} /></Button>
-            
+
             </ContainerItens>
         </Container>
     );

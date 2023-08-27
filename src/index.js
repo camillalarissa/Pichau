@@ -5,9 +5,9 @@ import Routes from './routes'
 
 
 ReactDOM.render(
-<>
-    <Routes />
-     <GlobalCss />
-</>,
+    <>
+        <Routes />
+        <GlobalCss />
+    </>,
     document.getElementById('root'));
 

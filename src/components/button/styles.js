@@ -1,4 +1,4 @@
-import  styled  from "styled-components";
+import styled from "styled-components";
 
 export const Button = styled.button`
 color: #FFF;
@@ -8,8 +8,8 @@ font-style: normal;
 font-weight: bold;
 line-height: normal;
 border-radius: 14px;
-background:${props => props.isBack ?'transparent' : ' rgba(0, 0, 0, 0.80)'};
-border:${ props => props.isBack ? '1px solid #ffffff' : 'none'};
+background:${props => props.isBack ? 'transparent' : ' rgba(0, 0, 0, 0.80)'};
+border:${props => props.isBack ? '1px solid #ffffff' : 'none'};
 width: 365px;
 height: 74px;
 cursor: pointer;
@@ -28,7 +28,7 @@ margin-top: 120px;
 }
 img {
 
-transform:${props => props.isBack && 'rotateY(180deg)' } ;
+transform:${props => props.isBack && 'rotateY(180deg)'} ;
 }
 `;
 

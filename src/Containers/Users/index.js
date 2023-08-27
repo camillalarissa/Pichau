@@ -6,13 +6,13 @@ import Avatar from '../../assets/avatar.svg'
 import Arrow from '../../assets/seta.svg'
 import Trash from '../../assets/lixeira.svg'
 
-import  H1  from '../../components/Title'
-import  ContainerItens  from '../../components/ContainersItens'
-import  Button  from '../../components/button'
+import H1 from '../../components/Title'
+import ContainerItens from '../../components/ContainersItens'
+import Button from '../../components/button'
 import {
     Container,
     Image,
-     User
+    User
 } from "../../Containers/Users/styles";
 
 //jsx tras poderes na nossa aplicaçao utilizando entre {}
@@ -21,7 +21,7 @@ import {
 function Users() {
     const [users, setUsers] = useState([]);
     const history = useHistory()
-    
+
 
 
     useEffect(() => {
@@ -43,10 +43,10 @@ function Users() {
 
 
     }
-function goBackPage(){
+    function goBackPage() {
 
-history.push("/")
-}
+        history.push("/")
+    }
     // React criou o ESTADO que é uma variavel, eu alterando esta ele renderiza a tela novamente 
 
     return (
@@ -55,7 +55,7 @@ history.push("/")
             <ContainerItens isBlur={true}>
                 <H1>Usuários</H1>
 
-               
+
 
                 <ul>
                     {users.map((user) => (

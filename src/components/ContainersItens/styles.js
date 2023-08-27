@@ -1,4 +1,4 @@
-import  styled  from "styled-components";
+import styled from "styled-components";
 
 export const ContainerItens = styled.div`
 background: linear-gradient(157.44deg, 
@@ -12,11 +12,10 @@ rgba(255,255,255,0.6) 0.84%,
  height: 100vh;
  
 
- ${
-     props => props.isBlur &&`
+ ${props => props.isBlur && `
      min-height: calc(100vh - 170px);
      backdrop-filter: blur(45px);
      `
 
- }
+    }
 `;

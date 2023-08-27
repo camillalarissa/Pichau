@@ -1,10 +1,10 @@
 import React from "react";
-import {H1} from '../styles'
+import { H1 } from '../styles'
 
 
-function Title({children}){
+function Title({ children }) {
 
-    return( 
+    return (
         <H1>{children}</H1>
 
     )
